@@ -1,6 +1,6 @@
 project setup (one time process)
 
-> python install django
+> pip install django
 > django-admin startproject Project_Mgmt
 > cd Project_Mgmt
 > python manage.py runserver
@@ -31,4 +31,8 @@ DATABASES = {
     model -> database communication
     view -> user interface
     controller -> business logic
+
+
+app/models.py
+
 
