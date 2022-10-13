@@ -1,8 +1,8 @@
 project setup (one time process)
 
 > python install django
-> django-admin startproject mysite
-> cd mysite
+> django-admin startproject Project_Mgmt
+> cd Project_Mgmt
 > python manage.py runserver
 
 Database Settings in Project
