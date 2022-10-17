@@ -35,4 +35,16 @@ DATABASES = {
 
 app/models.py
 
+we have to register the model in admin.py
 
+from .models import Registration
+admin.site.register(Registration)
+
+urls.py -> app.urls
+
+after creating urls for the crud operations, we have to register the urls in app/urls.py
+
+now, we have to make view for the crud operations (HTML pages)
+
+Create templates folder in project folder
+register templates in settings.py
